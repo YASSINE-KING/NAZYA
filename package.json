@@ -1,0 +1,24 @@
+{
+  "name": "naziya-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot for group management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "moment-timezone": "^0.5.43",
+    "chalk": "^4.1.2",
+    "pino": "^8.0.0",
+    "@hapi/boom": "^10.0.1",
+    "node-cache": "^5.1.2"
+  }
+}
