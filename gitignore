@@ -1,0 +1,7 @@
+node_modules/
+session/
+.env
+*.log
+.DS_Store
+store.json
+elite.json
